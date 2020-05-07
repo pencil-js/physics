@@ -1,0 +1,32 @@
+{
+    "name": "@pencil.js/physics",
+    "version": "0.0.0",
+    "description": "Strip-down physics engine plugin for Pencil.js",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "eslintConfig": {
+        "extends": "@gmartigny/eslint-config"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pencil-js/physics.git"
+    },
+    "keywords": [
+        "integration"
+    ],
+    "author": "GMartigny",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pencil-js/physics/issues"
+    },
+    "homepage": "https://github.com/pencil-js/physics#readme",
+    "devDependencies": {
+        "@gmartigny/eslint-config": "^1.4.2",
+        "eslint": "^6.8.0"
+    }
+}
